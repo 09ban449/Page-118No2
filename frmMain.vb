@@ -13,7 +13,7 @@
         dblFinanceCharges = (dblPastDueAmount - dblPayments) * 0.015
         dblCurrentAmtDue = (dblPastDueAmount - dblPayments) + dblFinanceCharges + dblPurchases
 
-        lstAccountSummary.Items.Add(String.Format(fmtStr, "Account", "Past Due", "", "", "", "Finance", "Current"))
+        lstAccountSummary.Items.Add(String.Format(fmtStr, "Account", "Past Due", "", "", "Finance", "Current"))
         lstAccountSummary.Items.Add(String.Format(fmtStr, "Number", "Amount", "Payments", "Purchases", "Charges", "Amt Due"))
         lstAccountSummary.Items.Add(String.Format(fmtStr, strAccountNumber, FormatCurrency(dblPastDueAmount), FormatCurrency(dblPayments), FormatCurrency(dblPurchases), FormatCurrency(dblFinanceCharges), FormatCurrency(dblCurrentAmtDue)))
 
