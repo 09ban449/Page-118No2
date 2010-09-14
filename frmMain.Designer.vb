@@ -28,7 +28,7 @@ Partial Class frmMain
         '
         'btnDisplayAccountSummary
         '
-        Me.btnDisplayAccountSummary.Location = New System.Drawing.Point(183, 12)
+        Me.btnDisplayAccountSummary.Location = New System.Drawing.Point(80, 12)
         Me.btnDisplayAccountSummary.Name = "btnDisplayAccountSummary"
         Me.btnDisplayAccountSummary.Size = New System.Drawing.Size(335, 44)
         Me.btnDisplayAccountSummary.TabIndex = 0
@@ -40,14 +40,14 @@ Partial Class frmMain
         Me.lstAccountSummary.FormattingEnabled = True
         Me.lstAccountSummary.Location = New System.Drawing.Point(12, 72)
         Me.lstAccountSummary.Name = "lstAccountSummary"
-        Me.lstAccountSummary.Size = New System.Drawing.Size(686, 121)
+        Me.lstAccountSummary.Size = New System.Drawing.Size(472, 82)
         Me.lstAccountSummary.TabIndex = 1
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(710, 218)
+        Me.ClientSize = New System.Drawing.Size(496, 168)
         Me.Controls.Add(Me.lstAccountSummary)
         Me.Controls.Add(Me.btnDisplayAccountSummary)
         Me.Name = "frmMain"
